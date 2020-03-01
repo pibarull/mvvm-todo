@@ -1,6 +1,0 @@
-framework module Pods_MVVM_todo {
-  umbrella header "Pods-MVVM-todo-umbrella.h"
-
-  export *
-  module * { export * }
-}
