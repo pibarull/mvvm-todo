@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>751109087913-l3bv5c69e4j2cbot901r3tlme03p3n0p.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.751109087913-l3bv5c69e4j2cbot901r3tlme03p3n0p</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCdgmnCp3q41bx72L8DH_ZLjpNPoYJMlZQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>751109087913</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>MacBook.MVVM-todo</string>
+	<key>PROJECT_ID</key>
+	<string>mvvm-todo</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mvvm-todo.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:751109087913:ios:ca44af5fd78db6ea6c3fb8</string>
+	<key>DATABASE_URL</key>
+	<string>https://mvvm-todo.firebaseio.com</string>
+</dict>
+</plist>
