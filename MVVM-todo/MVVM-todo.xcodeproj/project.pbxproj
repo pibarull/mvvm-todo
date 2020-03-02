@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04AC74E9A0A756B50C3FBCCA /* Pods_MVVM_todo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB3F947F821A5A4847B310EF /* Pods_MVVM_todo.framework */; };
 		3A547E4D23FD813000D9BB54 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A547E4C23FD812F00D9BB54 /* MapKit.framework */; };
 		3A547E4F23FD855B00D9BB54 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A547E4E23FD855B00D9BB54 /* Artwork.swift */; };
 		3A547E52240513FE00D9BB54 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A547E51240513FE00D9BB54 /* SettingsView.swift */; };
@@ -35,7 +36,6 @@
 		3BF783AC23E3414300296E4E /* TasksNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF783AB23E3414300296E4E /* TasksNavigationController.swift */; };
 		3BF783AF23E3425E00296E4E /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF783AE23E3425E00296E4E /* UINavigationController.swift */; };
 		3BF783B423E412A100296E4E /* TaskDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF783B323E412A100296E4E /* TaskDetailsView.swift */; };
-		C1424D1598588B6E9257AB86 /* Pods_MVVM_todo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC992C77F6F7BF139DD1946 /* Pods_MVVM_todo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,9 +69,9 @@
 		3BF783AB23E3414300296E4E /* TasksNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksNavigationController.swift; sourceTree = "<group>"; };
 		3BF783AE23E3425E00296E4E /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
 		3BF783B323E412A100296E4E /* TaskDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailsView.swift; sourceTree = "<group>"; };
-		4AC992C77F6F7BF139DD1946 /* Pods_MVVM_todo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVM_todo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6ED5D5B067D02D09D71168A8 /* Pods-MVVM-todo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM-todo.release.xcconfig"; path = "Target Support Files/Pods-MVVM-todo/Pods-MVVM-todo.release.xcconfig"; sourceTree = "<group>"; };
-		D20DA70B3300BB2CDCFB6C72 /* Pods-MVVM-todo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM-todo.debug.xcconfig"; path = "Target Support Files/Pods-MVVM-todo/Pods-MVVM-todo.debug.xcconfig"; sourceTree = "<group>"; };
+		61493C4955E0F8B9BB0BB487 /* Pods-MVVM-todo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM-todo.debug.xcconfig"; path = "Target Support Files/Pods-MVVM-todo/Pods-MVVM-todo.debug.xcconfig"; sourceTree = "<group>"; };
+		934198ED602D107ED9B1AF15 /* Pods-MVVM-todo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM-todo.release.xcconfig"; path = "Target Support Files/Pods-MVVM-todo/Pods-MVVM-todo.release.xcconfig"; sourceTree = "<group>"; };
+		FB3F947F821A5A4847B310EF /* Pods_MVVM_todo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVM_todo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A547E4D23FD813000D9BB54 /* MapKit.framework in Frameworks */,
-				C1424D1598588B6E9257AB86 /* Pods_MVVM_todo.framework in Frameworks */,
+				04AC74E9A0A756B50C3FBCCA /* Pods_MVVM_todo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +248,7 @@
 			isa = PBXGroup;
 			children = (
 				3A547E4C23FD812F00D9BB54 /* MapKit.framework */,
-				4AC992C77F6F7BF139DD1946 /* Pods_MVVM_todo.framework */,
+				FB3F947F821A5A4847B310EF /* Pods_MVVM_todo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -256,8 +256,8 @@
 		C0849520912EAE7F6040A300 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D20DA70B3300BB2CDCFB6C72 /* Pods-MVVM-todo.debug.xcconfig */,
-				6ED5D5B067D02D09D71168A8 /* Pods-MVVM-todo.release.xcconfig */,
+				61493C4955E0F8B9BB0BB487 /* Pods-MVVM-todo.debug.xcconfig */,
+				934198ED602D107ED9B1AF15 /* Pods-MVVM-todo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -269,12 +269,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BF7838F23E301EC00296E4E /* Build configuration list for PBXNativeTarget "MVVM-todo" */;
 			buildPhases = (
-				55F73FDC91113435D530D214 /* [CP] Check Pods Manifest.lock */,
+				49AD5E4732067460157A20E2 /* [CP] Check Pods Manifest.lock */,
 				3BF7837723E301E900296E4E /* Sources */,
 				3BF7837823E301E900296E4E /* Frameworks */,
 				3BF7837923E301E900296E4E /* Resources */,
-				16CE79079FAC0255DA36DD00 /* [CP] Embed Pods Frameworks */,
 				3B538A6F23FC10A200C14099 /* ShellScript */,
+				421B6CE913BA9C4E7374705D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -336,23 +336,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		16CE79079FAC0255DA36DD00 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MVVM-todo/Pods-MVVM-todo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MVVM-todo/Pods-MVVM-todo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MVVM-todo/Pods-MVVM-todo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3B538A6F23FC10A200C14099 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -371,7 +354,24 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/Fabric/run\"\n\n\n";
 		};
-		55F73FDC91113435D530D214 /* [CP] Check Pods Manifest.lock */ = {
+		421B6CE913BA9C4E7374705D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVVM-todo/Pods-MVVM-todo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVVM-todo/Pods-MVVM-todo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MVVM-todo/Pods-MVVM-todo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49AD5E4732067460157A20E2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -561,7 +561,7 @@
 		};
 		3BF7839023E301EC00296E4E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D20DA70B3300BB2CDCFB6C72 /* Pods-MVVM-todo.debug.xcconfig */;
+			baseConfigurationReference = 61493C4955E0F8B9BB0BB487 /* Pods-MVVM-todo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -581,7 +581,7 @@
 		};
 		3BF7839123E301EC00296E4E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6ED5D5B067D02D09D71168A8 /* Pods-MVVM-todo.release.xcconfig */;
+			baseConfigurationReference = 934198ED602D107ED9B1AF15 /* Pods-MVVM-todo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

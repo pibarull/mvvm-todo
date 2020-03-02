@@ -38,12 +38,14 @@ class NotificationHandler {
         var dd: Int = 0
         if let task = TaskModel().getTask(by: taskId) {
             content.body = task.title
-            (HH, mm) = task.deadline.getFormattedTimeInHHmm()
-            (YYYY, MM, dd) = task.deadline.getFormattedTimeInYYYYMMdd()
-             let HHToNotice = UserDefaults.standard.integer(forKey: "HHToNotice")
+            let HHToNotice = UserDefaults.standard.integer(forKey: "HHToNotice")
             let mmToNotice = UserDefaults.standard.integer(forKey: "mmToNotice")
-            HH = HH - HHToNotice
-            mm = mm - mmToNotice
+            
+            let timeInterval = -(60*mmToNotice + 60*60*HHToNotice)
+            let date = task.deadline.addingTimeInterval(TimeInterval(timeInterval))
+            (HH, mm) = date.getFormattedTimeInHHmm()
+            (YYYY, MM, dd) = date.getFormattedTimeInYYYYMMdd()
+            
         } else {
             print("Error while getting task")
         }
@@ -53,30 +55,7 @@ class NotificationHandler {
         
         content.sound = UNNotificationSound.default
 
-        if mm < 0 {
-            HH -= 1
-            mm = 60 + mm
-        }
-        if HH < 0 {
-            dd -= 1
-            HH = 24 + HH
-        }
-        if dd < 0 {
-            MM -= 1
-            //TODO: - Сделать проверку на количество дней в месяце (31,30,28)
-            dd = 31 + dd
-        }
-        if MM < 0 {
-            YYYY -= 1
-            MM = 12 + MM
-        }
         var dateComponents = DateComponents()
-        
-//        print("HH to notice = \(HH)")
-//        print("mm to notice = \(mm)")
-//        print("Year to notice = \(YYYY)")
-//        print("Month to notice = \(MM)")
-//        print("Day to notice = \(dd)")
     
         dateComponents.year = YYYY
         dateComponents.month = MM
